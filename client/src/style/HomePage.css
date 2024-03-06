@@ -1,0 +1,233 @@
+.homepage{
+    width: 100%;
+}
+.homepage-container{
+    padding: 0 5vw;
+}
+.homepage-first{
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homepage-left{
+}
+.homepage-left > div{
+    margin-block: 20px;
+}
+.homepage-left-small-text{
+    color: #613FE5;
+}
+.homepage-left-big-text{
+    font-size: 40px;
+    font-weight: 900;
+}
+.homepage-left-big-text > span{
+    color: #613FE5;
+}
+.homepage-search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #613FE5;
+    border-radius: 10px;
+    padding: 0 20px;
+    width: 450px;
+}
+.homepage-icon{
+    font-size: 30px;
+    color: #613FE5;
+}
+.homepage-input{
+    border: none;
+    width: 300px;
+    background: transparent;
+    font-size: 18px;
+    padding: 20px 10px;
+    outline: none;
+    color: #613FE5;
+}
+.homepage-right{
+    width: 30vw;
+}
+.homepage-right-img{
+    margin-top: 100px;
+    width: 100%;
+    z-index: 10 !important;
+    position: relative;
+}
+
+/* SEC */
+.homepage-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homepage-sec-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.homepage-sec-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 0 #0000000c;
+    transition: all 0.5s ease;
+}
+.homepage-sec-card:hover{
+    box-shadow: 1px 1px 3px 0 #000000b2;
+}
+.homepage-sec-right-top{
+    float: right;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.homepage-sec-post-day{
+    margin-right: 10px;
+}
+.homepage-sec-time{
+    color: #613FE5;
+    background-color: #c4b8f4;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.homepage-sec-company{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.homepage-sec-company-logo{
+    border: 1px solid #b9aee7;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.homepage-sec-title{
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.7;
+    margin-block: 5px;
+}
+.homepage-sec-sub-title{}
+.homepage-sec-des{
+    opacity: 0.7;
+}
+.homepage-sec-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary-btn{
+}
+.homepage-sec-money{
+
+}
+.homepage-sec-money > span{
+    font-size: 23px;
+    color: #613FE5;
+    font-weight: 700;
+}
+
+
+/* reviews */
+.reviews{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.reviews-arrow-right,
+.reviews-arrow-left{
+    color: white;
+    background-color: #613FE5;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 3px;
+    margin-top: 150px;
+}
+.reviews-arrow-right{
+    float: right;
+    margin-right: 20px;
+}
+.reviews-arrow-left{
+    float: left;
+    margin-left: 20px;
+}
+.home-reviews-container{
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.home-reviews-card{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px ;
+    box-shadow: 1px 1px 3px 0 #0000000c;
+    transition: all 0.5s ease;
+}
+.home-reviews-card:hover{
+    box-shadow: 1px 1px 3px 0 #000000b2;
+}
+
+.home-reviews-card img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.home-reviews-name{
+    margin-block: 10px;
+}
+.home-reviews-star{
+    display: flex;
+}
+.home-reviews-star div{
+    margin: 10px 5px;
+    color: gold;
+    font-size: 20px;
+}
+.home-reviews-message{
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-block: 5px;
+}
+
+
+
+/* RES */
+@media only screen and (max-width: 800px) {
+    .home-reviews-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .home-reviews-container>*:nth-child(3n){
+        display: none;
+    }
+}
+
+/* RES */
+@media only screen and (max-width: 500px) {
+    .home-reviews-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .home-reviews-container>*:nth-child(2n){
+        display: none;
+    }
+    
+    .home-reviews-container{
+        padding: 0;
+    }
+    .reviews-arrow-right{
+        margin-right: 10px;
+    }
+    .reviews-arrow-left{
+        margin-left: 10px;
+    }
+}
+

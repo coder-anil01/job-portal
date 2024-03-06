@@ -1,0 +1,51 @@
+.footer{
+    width: 100%;
+}
+.footer-container{
+    padding: 20px 5vw;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 3fr;
+    grid-gap: 20px;
+    background-color: #cfc3ff;
+}
+.footer-card{}
+.footer-logo{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.footer-description{}
+.footer-heading{}
+.footer-link{
+    margin-block: 5px;
+    font-weight: 600;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.footer-contact-email-card{
+    border: 1px solid #613FE5;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.footer-contact-email-input{
+    padding: 20px 0;
+    width: 19vw;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #613FE5;
+    font-size: 18px;
+    font-weight: 550;
+}
+/* .homepage-btn-find-job{} */
+.footer-bottom{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: #ffffff96;
+    font-weight: 700;
+}

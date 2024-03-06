@@ -1,0 +1,32 @@
+.navbar{
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;    
+    background-color: white;
+}
+.navbar-container{
+    height: 70px;
+    padding-inline: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo{
+}
+.navbar-items{}
+.navbar-item{
+    text-decoration: none;
+    color: black;
+}
+.navbar-login{
+    margin-left: 20px;
+    background-color: #613FE5;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
